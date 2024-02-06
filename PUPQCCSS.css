@@ -85,7 +85,8 @@ nav .nav-links .sidebar{
     width: 250px;
     z-index: 999;
     background: rgba(128, 128, 128, 0.7);
-    backdrop-filter: blur(10px) !important;
+    border-radius: 15px;
+    border-top-right-radius: 50px ;
     box-shadow: -10 0 10px rgba(0, 0, 0, 0.2);
     display: none;
     flex-direction: column;
@@ -370,7 +371,7 @@ h5 {
 }
 .faci-col{
     flex-basis: 32%;
-    border-radius: 15px;
+    border-radius: 20px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
